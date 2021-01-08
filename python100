@@ -5,6 +5,7 @@
 
 #!/usr/bin/python3
 ________("Hello, Python!")
+(A)
 
 (A) print   (B) printf   (C) printline   (D) printn
 ```
@@ -14,6 +15,7 @@ ________("Hello, Python!")
 #!/usr/bin/python3
 __這是一行註解
 print("Hello, Python!")
+(C)
 
 (A)	/   (B) -   (C) #   (D) <!-->
 ```
@@ -22,6 +24,7 @@ print("Hello, Python!")
 
 #!/usr/bin/python3
 (1)______ = “(2)______”
+(B)
 
 (A) (1)ksu，(2)school    (B) (1) school，(2) ksu  
 (C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
@@ -32,6 +35,7 @@ print("Hello, Python!")
 #!/usr/bin/python3
 y = 65535
 print(______(y))
+(D)
 
 (A) str   (B) sum   (C) int   (D)type
 
@@ -42,6 +46,7 @@ print(______(y))
 #!/usr/bin/python3
 y = 65535
 print(type(y))
+(A)
 
 (A) <class 'int'>  (B) <class 'str'>  (C) <class 'float'>  (D) <class 'tuple'>
 ```
@@ -51,6 +56,7 @@ print(type(y))
 #!/usr/bin/python3
 x = 65535
 ______(x)
+(c)
 
 (A) long   (B) str   (C) float   (D)int
 ```
@@ -60,6 +66,7 @@ ______(x)
 #!/usr/bin/python3
 string1 = "Hello, Python!"
 print(___________(string1))
+(b)
 
 (A) find   (B) len   (C) count   (D)replace
 ```
@@ -68,6 +75,7 @@ print(___________(string1))
 
 #!/usr/bin/python3
 print(100 < 200)
+(B)
 
 (A) False   (B) True   (C) 100   (D) 200
 ```
@@ -76,6 +84,7 @@ print(100 < 200)
 9.要定義一個整數變數a  底下程式碼需填入什麼:
 #!/usr/bin/python3
 a = ___________
+(A)
 
 (A) 1
 (B) 1.0
@@ -87,6 +96,7 @@ a = ___________
 #!/usr/bin/python3
 a = bool(100)
 print(a)
+(D)
 
 (A) 0
 (B) 100
@@ -98,6 +108,7 @@ print(a)
 #!/usr/bin/python3
 a = 100
 print(_______(a))
+(B)
 
 (A) any   (B) type   (C) complex   (D) bin
 ```
@@ -106,6 +117,7 @@ print(_______(a))
 #!/usr/bin/python3
 a = “Python!”
 print(type(a))
+(A)
 
 (A) str   (B) int   (C) float   (D) tuple
 ```
@@ -114,6 +126,7 @@ print(type(a))
 #!/usr/bin/python3
 a = ("Python", True, 1234)
 print(type(a))
+(D)
 
 (A) str   (B) int   (C) float   (D) tuple
 ```
@@ -122,7 +135,7 @@ print(type(a))
 #!/usr/bin/python3
 a = ["Python", "True", "1234"]
 print(type(a))
-
+(C)
 (A) set   (B) dict   (C) list   (D) tuple
 ```
 ```
@@ -130,6 +143,7 @@ print(type(a))
 #!/usr/bin/python3
 a = {"name" : "Eric", "age" : 90}
 print(type(a))
+(B)
 
 (A) set   (B) dict   (C) list   (D) tuple
 ```
@@ -140,6 +154,7 @@ print(type(a))
 #!/usr/bin/python3
 a = ________
 print(a)
+(A)
 
 (A) "Hello Python"
 (B) <Hello Python>
@@ -152,6 +167,7 @@ print(a)
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[1])
+(B)
 
 (A) H   (B) e   (C) l   (D) 1
 ```
@@ -161,6 +177,7 @@ print(a[1])
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[__________])
+(C)
 
 (A) 4:6   (B) 3:5   (C) 2:5   (D) llo
 ```
@@ -169,11 +186,13 @@ print(a[__________])
 #!/usr/bin/python3
 a = "        HelloPython "
 print(a.strip())
+(A.C)
 
 (A) HelloPython
 (B)        HelloPython
 (C) HelloPython         
 (D) H e l l o P y t h o n
+
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
@@ -181,6 +200,7 @@ print(a.strip())
 txt = " Kun Shan University was officially founded on April 29, 1965"
 x = "Kun" __________ txt
 print(x) 
+(D)
 
 (A) is
 (B) on
@@ -193,6 +213,7 @@ print(x)
 a = “Kun Shan”
 b = “University”
 print(__________)
+(B)
 
 (A) a & b
 (B) a + b
@@ -205,6 +226,7 @@ print(__________)
 a = “Kun Shan”
 b = 100
 print(a + b)
+(D)
 
 (A) Kun Shan100
 (B) a + b
@@ -218,6 +240,7 @@ print(a + b)
 a = 'Kun Shan {}'
 b = 'University'
 print(a.format(b))
+(B)
 
 (A) Kun Shan {}
 (B) Kun Shan University
@@ -230,6 +253,7 @@ print(a.format(b))
 a = '{1} Kun Shan {0}'
 b = 'University'
 print(a.format(b,‘Hello’))
+(A)
 
 (A) Hello Kun Shan University
 (B) University Kun Shan Hello
@@ -241,6 +265,7 @@ print(a.format(b,‘Hello’))
 #!/usr/bin/python3
 a = “_____________”
 print(a)
+(D)
 
 (A) “”
 (B) <””>
@@ -252,6 +277,7 @@ print(a)
 #!/usr/bin/python3
 a = “Kun Shan”
 print(_______)
+(A)
 
 (A) len(a)
 (B) length(a)
@@ -263,6 +289,7 @@ print(_______)
 #!/usr/bin/python3
 a = “Python”
 print(__________)
+(C)
 
 (A) a. isupper()
 (B) a. islower()
@@ -273,6 +300,7 @@ print(__________)
 28.試問以下程式執行後輸出什麼結果:
 #!/usr/bin/python3
 print(“%s Python! %d” % (“Hello”,123))
+(D)
 
 (A) “%s Python! %d” % (“Hello”,123)
 (B) 123 Python! Hello
@@ -284,6 +312,7 @@ print(“%s Python! %d” % (“Hello”,123))
 a = “Hello Python!”
 a = a._________
 print(a)
+(A)
 
 (A) replace(“o”,”x”)
 (B) replace(“x”,”o”)
@@ -296,6 +325,7 @@ print(a)
 if None:
     print("Hello")
 以上程式碼輸出的結果是？
+(A)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -307,6 +337,7 @@ if None:
 if 1:
     print("Hello")
 以上程式碼輸出的結果是？
+(C)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -318,6 +349,7 @@ if 1:
 if 100:
     print("Hello")
 以上程式碼輸出的結果是？
+(C)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -329,6 +361,7 @@ if 100:
 if 0:
     print("Hello")
 以上程式碼輸出的結果是？
+(A)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -340,6 +373,7 @@ if 0:
 if 100 == “100”:
     print("Hello")
 以上程式碼輸出的結果是？
+(A)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -351,6 +385,7 @@ if 100 == “100”:
 if 100 == 100:
     print("Hello")
 以上程式碼輸出的結果是？
+(C)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -362,6 +397,7 @@ if 100 == 100:
 if 100 >= 1:
     print("Hello")
 以上程式碼輸出的結果是？
+(C)
 
 (A) 沒有任何輸出
 (B) 語法錯誤
@@ -378,6 +414,7 @@ if ________:
 else:
   print("Hello World!")
 若要讓程式印出Hello World!需在___中填入什麼？
+(A)
 
 (A) a == b、a < b、a <= b
 (B) a != b
@@ -390,6 +427,7 @@ a = 50
 b = 1000
 print("A") if a > b else print("B")
 以上程式碼輸出的結果是？
+(B)
 
 (A) b
 (B) a
@@ -402,6 +440,7 @@ a = 50
 b = 51
 print("A") if a > b else print("B") if a != b else print("!=")
 以上程式碼輸出的結果是？
+(C)
 
 (A) A
 (B) !=
@@ -416,6 +455,8 @@ c = 0
 if a > b ___ c > a:
   print("True")
 若要讓程式印出Hello World!需在___中填入什麼？
+(C)
+
 
 (A) not in
 (B) not
@@ -430,6 +471,7 @@ b = a + 10
 if b > a:
   ______
 若要讓程式成功編譯執行應填入什麼？
+(A)
 
 (A) pass
 (B) return 0
@@ -445,6 +487,7 @@ if x >= 10:
   else:
     print("2")
 以上程式碼輸出的結果是？
+(C)
 
 (A) 10
 (B) 1
@@ -464,6 +507,7 @@ elif a == b:
       print("1")
     else:
       print("2")
+      (D)
       
 (A) b > a
 (B) 2
@@ -475,6 +519,7 @@ elif a == b:
 44.
 cat = ______
 創建一個cat的串列需填入什麼？
+(D)
 
 (A) [“Python”,”C”,”JAVA”,” Assembly”]
 (B) {'a': 1, 'b': 2, 'b': '3'}
